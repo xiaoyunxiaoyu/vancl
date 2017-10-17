@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding: 0;
+}
+fl{
+    float:left;
+}
+rl{
+    float:right;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #727171;
+}

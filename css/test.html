@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>绑定</title>
+    <script type="text/javascript">
+        //var result=(123+45*78)/(34+543)-9*(324-34);
+        //console.log(result);
+       /* var nub=prompt("请输入鸡蛋数");
+        //alert(nub);
+        var num=nub%20;
+        var zheng=nub/20;
+        if(nub>0){
+           alert(Math.ceil(zheng));
+        }
+        else{
+            alert("请输入正整数");
+        }*/
+
+        /**********************控制台输出50以下的单数****************************/
+        /*方法1*/
+ /*       var i=1;
+        while(i<50){
+            while((i%2)==1){
+                console.log(i);
+                i++;
+            }
+            i++;
+        }*/
+        /*方法2(比较高效)*/
+/*        var n=1;
+        while(n<50){
+            if(n%2==1){
+                console.log(n);
+            }
+            else{
+            }
+            n++;
+        }*/
+/******************计算1到100的和*****************************/
+     /*   var sum=0;
+        for(var i=1;i<=100;i++){
+            sum=sum+i;
+        }
+        alert(sum);*/
+        /*****************将1到100间6的倍数输出控制台***************************/
+        /*for(var i=1;i<=100;i++){
+            if(i%6==0){
+                console.log(i);
+            }else{
+
+            }
+        }*/
+        /**********方法二*******/
+/*        var i=1;
+        while(i<=100){
+            if(i%6==0){
+                console.log(i);
+            }else{
+            }
+            i++;
+        }*/
+        /**********************在页面中打印2行10颗星*****************************/
+/*        for(var i=1;i<=2;i++){
+            for(var j=1;j<=10;j++){
+                document.write("*");
+            }
+            document.write("</br>");
+        }*/
+        /****************************在页面中打印一个直角三角形***************************************/
+/*        for(var i=1;i<20;i++){
+            for(var j=1;j<=i;j++){
+                document.write("*");
+            }
+            document.write("</br>");
+        }*/
+        /******************************在页面中打印99乘法表*****************************************************/
+/*        for(var i=1;i<10;i++){
+            for(var j=1;j<=i;j++){
+                document.write(j+"X"+i+"="+j*i+"&nbsp;&nbsp;");
+            }
+            document.write("</br>");
+        }*/
+
+        /***********接收用户输入的用户名和密码，如果用户名不是admin或者密码不是888，就一直提示用户重新输入，如果用户名和密码都正确，程序立即停止,（使用while做）*************************/
+/*        alert("请输入用户名和密码");
+        var username=prompt("请输入用户名");
+        var psd=prompt("请输入密码");
+        while(username!="admin" || psd!=888){
+            alert("用户名或密码不正确，请重新输入");
+            username=prompt("请输入用户名");
+            psd=prompt("请输入密码");
+        }*/
+/******************定义一个数组，使用循环给数组赋值******数组的合并concat、join*******************************************/
+/*        var ary1=[];
+        var ary2=[10,11,12,14,15,15,16,18];
+        for(var i=0;i<=10;i++){
+            ary1[i]=i;
+        }
+        var ary3=ary1.concat(ary2);
+        document.write(ary3+"</br>");
+        document.write(ary1.join("|")+"</br>");
+        for(var j=0;j<ary3.length;j++){
+                if(ary3[j]%2==0){
+                    document.write(ary3[j]+",");
+                }
+        }*/
+        /**********************请写出一个半段一个数是否偶数的函数****************************/
+/*        function oushu(){
+            var num=parseInt(prompt("请输入一个数字"));
+            if(num%2==0){
+                alert(num+"是偶数");
+            }
+            else{
+                alert(num+"不是偶数");
+            }
+        }
+             oushu();
+        */
+        /******************请模拟写出一个Math.max(x,y)的函数****************/
+/*        function max(x,y){
+            if(x>y){
+                alert(x+"比"+y+"大");
+            }
+            else{
+                alert(y+"比"+x+"大");
+            }
+        }
+        max(155,125);*/
+
+        alert(Math.max(155,125));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
